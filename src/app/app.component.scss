@@ -1,0 +1,19 @@
+menu {
+  margin: 0;
+  background: darkblue;
+
+  a {
+    padding: 15px 15px;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+
+    &:hover {
+      background: cornflowerblue;
+    }
+  }
+}
+
+::ng-deep body {
+  margin: 0;
+}

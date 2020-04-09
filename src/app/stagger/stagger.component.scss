@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  max-width: 800px;
+}
+
+.grid-item {
+  height: 100px;
+  width: 100px;
+}

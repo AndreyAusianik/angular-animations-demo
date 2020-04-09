@@ -1,0 +1,4 @@
+<div class="checkbox" #checkbox (click)="checked = !checked" [@move]="{value: moveParams, params: moveParams}">
+  <div class="green-fill" [@expandingHorizontally]="checked"></div>
+  <div class="trigger" [@movingHorizontally]="checked"></div>
+</div>

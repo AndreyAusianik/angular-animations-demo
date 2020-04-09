@@ -1,0 +1,10 @@
+.wrapper {
+  background: url("/assets/wc3background.jpg") no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 48px);
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+}

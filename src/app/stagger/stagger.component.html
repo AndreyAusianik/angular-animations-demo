@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div class="grid" [@flowIn]="grid" #gridElement>
+    <div *ngFor="let item of grid" [style.backgroundColor]="item.color" class="grid-item"></div>
+  </div>
+
+  <br>
+  <br>
+  <button (click)="runAnimation()">Run animation</button>
+  <button (click)="pauseAnimation()">Pause animation</button>
+  <br>
+  <input type="range" (input)="moveToAnimationPoint($event.target.value)" min="0" max="100">
+</div>

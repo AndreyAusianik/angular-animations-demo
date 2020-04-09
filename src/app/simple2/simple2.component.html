@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <div class="card">
+    <h5>Card</h5>
+    <div>Short description</div>
+
+    <div *ngIf="expanded" @expandableVertically class="expandable-section">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae ducimus modi molestiae nam natus quaerat quasi quibusdam rem suscipit? Animi commodi consectetur ducimus, eos esse eveniet iste molestias, natus nostrum ratione reiciendis sed, vel. Distinctio id minima tempora unde.
+    </div>
+
+    <a href="javascript:void 0" (click)="expanded = !expanded">
+      <ng-container *ngIf="!expanded">Show more</ng-container>
+      <ng-container *ngIf="expanded">Show less</ng-container>
+    </a>
+  </div>
+</div>
